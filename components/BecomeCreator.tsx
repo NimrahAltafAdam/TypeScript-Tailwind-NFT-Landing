@@ -1,6 +1,6 @@
 import { ChartPieIcon, IdentificationIcon, PresentationChartBarIcon, RocketLaunchIcon } from '@heroicons/react/16/solid'
 import React from 'react'
-import Card from './Card'
+import Card from './Helper/Card'
 
 const BecomeCreator = () => {
   return (
@@ -17,9 +17,9 @@ const BecomeCreator = () => {
                 <button className='mt-[1rem] text-[17px] hover:text-yellow-300 text-white underline'>Read More</button>
             </div> */}
             <Card heading="Setup Your Wallet" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, accusantium." buttonText='Read More' Icon={RocketLaunchIcon} iconColor='text-yellow-300' />
-            <Card heading="Setup Your Wallet" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, accusantium." buttonText='Read More' Icon={ChartPieIcon} iconColor='text-green-300' />
-            <Card heading="Setup Your Wallet" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, accusantium." buttonText='Read More' Icon={IdentificationIcon} iconColor='text-orange-300' />
-            <Card heading="Setup Your Wallet" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, accusantium." buttonText='Read More' Icon={PresentationChartBarIcon} iconColor='text-emerald-300' />
+            <Card heading="Setup Your Wallet" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, accusantium." buttonText='Read More' Icon={ChartPieIcon} iconColor='text-green-300' delay={100} />
+            <Card heading="Setup Your Wallet" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, accusantium." buttonText='Read More' Icon={IdentificationIcon} iconColor='text-orange-300' delay={200} />
+            <Card heading="Setup Your Wallet" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, accusantium." buttonText='Read More' Icon={PresentationChartBarIcon} iconColor='text-emerald-300' delay={300} />
 
         </div>
     </div>

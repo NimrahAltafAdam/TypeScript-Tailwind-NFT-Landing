@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='pt-[5rem] pb-[3rem] bg-blue-950'>
         <div className='w-[80%] mx-auto grid grid-cols-1 xl:grid-cols-2 items-center gap-[3rem]  '>
-            <div className='md:w-[500px] md:h-[600px] w-[80%] border-[3px] flex items-center justify-center border-gray-400 rounded-lg'>
+            <div data-aos="zoom-in" data-aos-anchor-placement="top-center"  className='md:w-[500px] md:h-[600px] w-[80%] border-[3px] flex items-center justify-center border-gray-400 rounded-lg'>
                 <Image src="/images/about.jpg" alt="about" height={500} width={500} className='-rotate-12 rounded-lg' />
             </div>
             <div>
